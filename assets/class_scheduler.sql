@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 06, 2015 at 10:28 PM
+-- Generation Time: May 07, 2015 at 01:24 AM
 -- Server version: 5.6.16
 -- PHP Version: 5.5.9
 
@@ -141,9 +141,9 @@ CREATE TABLE IF NOT EXISTS `cs_users` (
 --
 
 INSERT INTO `cs_users` (`user_id`, `user_name`, `user_password`, `user_permission`) VALUES
-('1', 'TimMeadows', 'adminPassword', 'A'),
-('100', 'DaveRiley', 'teacherPassword', 'T'),
-('100001', 'BobSmith', 'studentPassword', 'S');
+('1', 'TimMeadows', 'f23g5h7d1kadminPassword', 'A'),
+('100', 'DaveRiley', 'f23g5h7d1kteacherPassword', 'T'),
+('100001', 'BobSmith', 'f23g5h7d1kstudentPassword', 'S');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
