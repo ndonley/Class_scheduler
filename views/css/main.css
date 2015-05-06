@@ -1,0 +1,36 @@
+/*
+Author: Nicholas Donley
+Revision date: May 6, 2015
+File name: main.css
+Description: css not provided by jquery and fullcalendar
+*/
+
+* {
+	padding: 2px;
+	}
+	
+img, video, canvas {
+  max-width: 100%;
+}
+
+#main {
+	width: 95%;
+	margin: 0 auto;
+}
+
+table {
+	border: 2px solid black;
+	margin: 0 auto;
+	
+}
+
+table td {
+	border: 1px solid black;
+}
+
+@media screen and (min-width: 1024px) {
+	#page { 
+	margin: 0 auto;
+	width: 1024px;
+	
+	}
