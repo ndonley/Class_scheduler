@@ -31,6 +31,8 @@ switch($action) {
     case 'login':
         $user_name = $_POST['user_name'];
         $password = $_POST['password'];
+		$salt = 'f23g5h7d1k';
+		$password = ($salt.$password);
 			
     $user_permission = is_valid_login($user_name, $password);
 		
